@@ -1,23 +1,29 @@
-HEAD
-## Getting Started
+# Sistema de gerenciamento para hotel de pets
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sistema de gerenciamento para hotel de pets com cadastro, agendamento de serviços e faturamento.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Cadastro de pets e tutores
+- Agendamento de serviços (banho, tosa, etc.)
+- Cálculo automático de fatura
+- Relatórios de ocupação
+- Persistência em CSV
+- Testes unitários
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 11
+- Maven
+- JUnit 5
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Executar
 
-## Dependency Management
+```bash
+mvn package
+java -cp target/classes model.App
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# hotel-pet
-Sistema de gerenciamento para hotel de pets
->>>>>>> e528a2d3bbd212cd0e70e5bbd2ba5fabe45e9fd4
+## Licença
+
+MIT License
